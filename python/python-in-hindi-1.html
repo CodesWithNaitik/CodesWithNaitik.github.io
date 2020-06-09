@@ -8,6 +8,22 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!-- Scrollbar Custom CSS -->
+    <link href="css/prism.css" rel="stylesheet">
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar-plugin/3.1.5/jquery.mCustomScrollbar.min.css">
+    <link rel="stylesheet" href="css/sidemenu.css">
+    <style>
+        code[class*="language-"],
+        pre[class*="language-"] {
+            max-height: 614px;
+        }
+
+        .commentContainer {
+            overflow-x: scroll;
+        }
+    </style>
+
 
 
 
@@ -101,12 +117,12 @@
             }
         }
     </style>
-    <link rel="icon" type="image/png" href="logo.jpg">
+    <link rel="icon" type="image/jpg" href="../logo.jpg">
 
-    <title>
-        Programming Videos, Courses - Codes With Naitik</title>
+    <title>Downlad and install Python ANd Vs-Code</title>
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-60726752-3"></script>
+
 
     <script>
         window.dataLayer = window.dataLayer || [];
@@ -127,7 +143,7 @@
 
 <body>
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <a class="navbar-brand" href="/"><img class="brandLogo" src="logo.jpg" alt="My image"></a>
+        <a class="navbar-brand" href="/"><img class="brandLogo" src="../logo.jpg" alt="My image"></a>
 
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
             aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -138,19 +154,19 @@
             <ul class="navbar-nav mr-auto">
 
                 <li class="nav-item">
-                    <a class="nav-link" href="index.html">Home</a>
+                    <a class="nav-link" href="../index.html">Home</a>
                 </li>
 
                 <li class="nav-item">
-                    <a class="nav-link" href="videos.html">Videos</a>
+                    <a class="nav-link" href="../videos.html">Videos</a>
                 </li>
 
                 <li class="nav-item">
-                    <a class="nav-link" href="project.html">Project</a>
+                    <a class="nav-link" href="../project.html">Project</a>
                 </li>
 
                 <li class="nav-item">
-                    <a class="nav-link" href="contact.html">Contact Me</a>
+                    <a class="nav-link" href="../contact.html">Contact Me</a>
                 </li>
             </ul>
 
@@ -162,9 +178,7 @@
 
             <div>
                 <button type="button" class="btn btn-danger" data-toggle="modal"
-                    data-target="#loginModal">Login</button>
-                <button type="button" class="btn btn-danger" data-toggle="modal"
-                    data-target="#signupModal">SignUp</button>
+                    data-target="#signupModal">Login</button>
             </div>
 
         </div>
@@ -184,7 +198,7 @@
                 </div>
 
                 <div class="modal-body">
-                    <form><input type="hidden" name="csrfmiddlewaretoken"
+                    <form ><input type="hidden" name="csrfmiddlewaretoken"
                             value="D4JLwyCM9Sj6ed0rUIeOA9sOxj7gFTVOt5OtvAgvxZNw0s0avxz6TZL4AGkoOJrX">
                         <div class="form-group">
                             <label for="lusername">Username</label>
@@ -255,9 +269,7 @@
                             <label for="password2">Retype a password</label>
                             <input type="password" class="form-control" id="password2"
                                 placeholder="Retype your password" name="password2">
-                        </div>
-                        <div class="g-recaptcha" data-sitekey="6LdvcqwUAAAAACmPYNVoiJA7D84xLSQQt5g9p10m"></div>
-                        <input type="hidden" name="path" value="/">
+                        </div>>
                         <button type="submit" class="btn btn-danger mt-2">Login</button>
                     </form>
                 </div>
@@ -267,58 +279,150 @@
                 </div>
             </div>
         </div>
-    </div>
+    </div>>
 
-    <section class="jumbotron text-center">
-        <div class="container">
-            <img class="heightlogoof" src="logo.jpg" alt="logo" width="120">
-            <h1 class="jumbotron-heading"><span id="typed"></span></h1>
-            <p class="lead text-muted">Confused on which course to take? I have got you covered. Browse courses and find
-                out
-                the best course for you. Its free!<br>Code With Harry is my attempt to teach basics and those coding
-                techniques to people in short time which took me ages to learn.</p>
-            <p>
-                <a href="blog.html" class="btn btn-danger my-2">Browse Blog</a>
-                <a href="videos.html" class="btn btn-success my-2">Browse Video Tutorials</a>
-                <a href="contact.html" class="btn btn-primary my-2">Contact Me</a>
-            </p>
+    <div class="wrapper">
+        <!-- SideMenu is here  -->
+        <nav id="sidebar">
+            <div id="dismiss">
+                <i class="fas fa-arrow-left closeArrow"></i>
+            </div>
+
+            <div class="sidebar-header">
+                <h4>Python Tutorials In Hindi</h4>
+            </div>
+
+            <ul class="list-unstyled components">
+
+
+                <li>
+                    <a href="codewithharry.com/videos/javascript-tutorials-in-hindi-5" class='font-weight-bold'>1. Downloading and Installing Python </a>
+                </li>
+
+                <li>
+                    <a href="codewithharry.com/videos/javascript-tutorials-in-hindi-6" class='font-weight-bold'>2. Basic Python Variables #2</a>
+                </li>
+
+                <li>
+                    <a href="codewithharry.com/videos/javascript-tutorials-in-hindi-7" class='font-weight-bold'>3. Using Python as Calulator and Operators</a>
+                </li>
+
+
+
+            </ul>
+        </nav>
+
+        <!-- Content Toggle Button  -->
+        <div id="content">
+            <button type="button" id="sidebarCollapse" class="btn btn-dark">
+                <i class="fas fa-align-left"></i>
+                <span>Open/close sidebar</span>
+            </button>
+            <div class="my-3">
+
+                <h4> Download and Istalling Python. Puthon Tutorial In Hindi #1</h4>
+            </div>
+            <div class="container videoContainer embed-responsive embed-responsive-16by9">
+
+                <iframe class="embed-responsive-item" src="//www.youtube.com/embed/w9bVm7VLqTI"
+                    allowfullscreen></iframe></div>
+
+            <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+            <!-- CodeWithHarry Banner -->
+            <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-9655830461045889"
+                data-ad-slot="5087230793" data-ad-format="auto" data-full-width-responsive="true"></ins>
+            <script>
+                (adsbygoogle = window.adsbygoogle || []).push({});
+            </script>
+            <!-- CodeWithHarry Banner -->
+            <ul class="my-2 nav nav-tabs" id="myTab" role="tablist">
+                <li class="nav-item">
+                    <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab"
+                        aria-controls="home" aria-selected="true">Description</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab"
+                        aria-controls="profile" aria-selected="false">Code</a>
+                </li>
+
+            </ul>
+            <div class="tab-content" id="myTabContent">
+                <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+                    <div class='m-3'>
+                        <!-- Page content goes here -->
+                        <p><br></p>
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+
+                    <div class='m-3'>
+                        <h4>Code tut1.py as described/written in the video</h4>
+                        <pre class='language-html'>
+                            <code>
+                       <h5>No code is associated with this video</h5>
+                        
+    </code>
+</pre>
+                    </div>
+                </div>
+            </div>
+
+
+
+            <hr>
+            <div class="container-fluid my-3 overflow-hidden">
+
+                <a class="btn btn-danger float-left"
+                    href="python-in-hindi-1.html">&larr; Previous </a>
+
+
+
+                <a class="btn btn-danger float-right"
+                    href="python-in-hindi-2.html">Next &rarr;</a>
+
+            </div>
+            <hr>
+
+            <div id="comments" class="container-fluid">
+
+
+                <div class="my-4">
+                    <h2><label for="inputAddress">You must be logged in to post a comment!</label></h2>
+                    <button type="submit" class="btn btn-danger my-2 my-sm-0 ml-2" data-toggle="modal"
+                        data-target="#signupModal">Login Here</button>
+                </div>
+
+
+
+
+
+                <div class="container-fluid my-4">
+                    <h3>Comments(2)</h3>
+
+
+
+                    <div class="row mt-4">
+                        <div class="col-md-3 col-lg-1 col-xl-1">
+                            <img class="userPic rounded-circle" src="commentImg.jpg">
+                        </div>
+                        <div class="col-md-8 col-lg-10 col-xl-10 commentContainer">
+                            <div class="my-2">
+                                <b>Sobhit</b> <p>It is very Thankfull to us </p>
+                            </div>
+                        </div>
+
+                    </div>
+
+
+
+
+
+
+                </div>
+            </div>
+            <hr>
         </div>
-    </section>
 
-    <div class="container">
-        <div class="row">
-            <div class="card mx-auto my-2 p-2" style="width: 18rem;">
-                <img width="23px" height="245px" src="coding.jpg" class="card-img-top" alt="...">
-                <div class="card-body">
-                    <h5 class="card-title">Free Video Courses</h5>
-                    <p class="card-text">Get your programming career started with these free video courses. Source code
-                        is
-                        available with all the videos for your better experience</p>
-                    <a href="videos.html" class="btn btn-primary">Browse Video Courses</a>
-                </div>
-            </div>
-
-            <div class="card mx-auto my-2 p-2" style="width: 18rem;">
-                <img width="23px" height="245px" src="lambda.png" class="card-img-top" alt="...">
-                <div class="card-body">
-                    <h5 class="card-title">Coding Articles</h5>
-                    <p class="card-text">Some of the latest coding information compiled as coding articles. Keep your
-                        programming knowledge up to date with our coding articles.</p>
-                    <a href="blog.html" class="btn btn-primary">Go to Blog</a>
-                </div>
-            </div>
-            <div class="card mx-auto my-2 p-2" style="width: 18rem;">
-                <img width="23px" height="245px" src="hack.jpg" class="card-img-top" alt="...">
-                <div class="card-body">
-                    <h5 class="card-title">My Projects</h5>
-                    <p class="card-text">Learn projects here. There will be too many projects I will be uploaded Here
-                        one by one on everyday with source code and their use. Their videoes will be available after
-                        some time</p>
-                    <a href="project.html" class="btn btn-primary">Contact Me</a>
-                </div>
-            </div>
-
-        </div>
 
     </div>
 
@@ -348,20 +452,68 @@
     <script src="https://kit.fontawesome.com/433888fe69.js" crossorigin="anonymous"></script>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.9/typed.min.js"></script>
-    <script>
-        window.onload = function () {
-            console.log("loaded")
-            var typed = new Typed('#typed', {
-                strings: ["Welcome to Codes With Naitik", "Learn Python", "Web development", "Data Science", "and other awesome programming concepts with me"],
-                backSpeed: 15,
-                smartBackspace: true,
-                backDelay: 1200,
-                startDelay: 1000,
-                typeSpeed: 25,
-                loop: true,
-            });
-        };
-    </script>
+    <!-- Font Awesome JS -->
+<script src="https://kit.fontawesome.com/433888fe69.js"></script>
+
+<!-- jQuery Custom Scroller CDN -->
+<script
+    src="https://cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar-plugin/3.1.5/jquery.mCustomScrollbar.concat.min.js"></script>
+<script type="text/javascript">
+    // Sidebar toggle
+    $(document).ready(function () {
+        $('#sidebarCollapse').add('#dismiss').on('click', function () {
+            $('#sidebar').toggleClass('active');
+        });
+    });
+</script>
+
+<script>
+
+    function disableScrolling() {
+        let x = window.scrollX;
+        let y = window.scrollY;
+        window.onscroll = function () { window.scrollTo(x, y); };
+    }
+
+    function enableScrolling() {
+        window.onscroll = function () { };
+    }
+
+    // Add copy button
+    let pres = document.getElementsByTagName('pre');
+    Array.from(pres).forEach((element2) => {
+        let element = document.createElement('button');
+        element.setAttribute('class', 'btn btn-primary');
+        element.innerHTML = 'Copy';
+        element.style.float = 'right';
+
+        element.addEventListener('click', (e) => {
+            disableScrolling();
+            console.log(e)
+            let x = window.screenX;
+            let y = window.screenY;
+
+            element.innerHTML = 'copied';
+            let tarea = document.createElement('textarea');
+            tarea.innerHTML = element.parentElement.children[1].innerText;
+            document.body.append(tarea);
+            tarea.focus();
+            tarea.select();
+            document.execCommand('copy');
+            tarea.style.display = 'none';
+            setTimeout(() => {
+                element.innerHTML = 'Copy';
+            }, 2000);
+            setTimeout(() => {
+                enableScrolling();
+            }, 0);
+        })
+        element2.insertBefore(element, element2.children[0]);
+    })
+
+</script>
+
+    
 
 </body>
 

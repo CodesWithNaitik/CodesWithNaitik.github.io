@@ -142,7 +142,7 @@
                 </li>
 
                 <li class="nav-item">
-                    <a class="nav-link" href="videos.html">Videos</a>
+                    <a class="nav-link" href="videos">Videos</a>
                 </li>
 
                 <li class="nav-item">
@@ -162,9 +162,7 @@
 
             <div>
                 <button type="button" class="btn btn-danger" data-toggle="modal"
-                    data-target="#loginModal">Login</button>
-                <button type="button" class="btn btn-danger" data-toggle="modal"
-                    data-target="#signupModal">SignUp</button>
+                    data-target="#signupModal">Login</button>
             </div>
 
         </div>
@@ -184,7 +182,7 @@
                 </div>
 
                 <div class="modal-body">
-                    <form><input type="hidden" name="csrfmiddlewaretoken"
+                    <form ><input type="hidden" name="csrfmiddlewaretoken"
                             value="D4JLwyCM9Sj6ed0rUIeOA9sOxj7gFTVOt5OtvAgvxZNw0s0avxz6TZL4AGkoOJrX">
                         <div class="form-group">
                             <label for="lusername">Username</label>
@@ -255,9 +253,7 @@
                             <label for="password2">Retype a password</label>
                             <input type="password" class="form-control" id="password2"
                                 placeholder="Retype your password" name="password2">
-                        </div>
-                        <div class="g-recaptcha" data-sitekey="6LdvcqwUAAAAACmPYNVoiJA7D84xLSQQt5g9p10m"></div>
-                        <input type="hidden" name="path" value="/">
+                        </div>>
                         <button type="submit" class="btn btn-danger mt-2">Login</button>
                     </form>
                 </div>
@@ -284,84 +280,79 @@
             </p>
         </div>
     </section>
+    <div class="container-fluid mainContainer">
+        <div class="row my-4 mx-4">
 
-    <div class="container">
-        <div class="row">
-            <div class="card mx-auto my-2 p-2" style="width: 18rem;">
-                <img width="23px" height="245px" src="coding.jpg" class="card-img-top" alt="...">
-                <div class="card-body">
-                    <h5 class="card-title">Free Video Courses</h5>
-                    <p class="card-text">Get your programming career started with these free video courses. Source code
-                        is
-                        available with all the videos for your better experience</p>
-                    <a href="videos.html" class="btn btn-primary">Browse Video Courses</a>
-                </div>
-            </div>
+            <div class="col-md-6 col-lg-4 text-center">
+                <img class="rounded-circle" src="default.png" width="200" height="200">
+                <h2> Python development for beginners </h2>
+                <p>
+                    In this series, we will learn about Python
+                </p>
+                <p>
 
-            <div class="card mx-auto my-2 p-2" style="width: 18rem;">
-                <img width="23px" height="245px" src="lambda.png" class="card-img-top" alt="...">
-                <div class="card-body">
-                    <h5 class="card-title">Coding Articles</h5>
-                    <p class="card-text">Some of the latest coding information compiled as coding articles. Keep your
-                        programming knowledge up to date with our coding articles.</p>
-                    <a href="blog.html" class="btn btn-primary">Go to Blog</a>
-                </div>
-            </div>
-            <div class="card mx-auto my-2 p-2" style="width: 18rem;">
-                <img width="23px" height="245px" src="hack.jpg" class="card-img-top" alt="...">
-                <div class="card-body">
-                    <h5 class="card-title">My Projects</h5>
-                    <p class="card-text">Learn projects here. There will be too many projects I will be uploaded Here
-                        one by one on everyday with source code and their use. Their videoes will be available after
-                        some time</p>
-                    <a href="project.html" class="btn btn-primary">Contact Me</a>
-                </div>
-            </div>
+                    <a href="python/python-in-hindi-1.html"><button class="btn btn-outline-danger">Start Watching »</button></a>
 
+                </p>
+            </div>
+            <div class="mx-auto col-md-6 col-lg-4 text-center">
+                <img class="rounded-circle" src="default.png" width="200" height="200">
+                <h2> Web development for beginners </h2>
+                <p>
+                    In this series, we will learn about Web Deveplopment Including CSS, Java Script
+                </p>
+                <p>
+    
+                    <a href="webdevelopment-in-hindi-1"><button class="btn btn-outline-danger">Start Watching
+                            »</button></a>
+    
+                </p>
+            </div>
         </div>
-
     </div>
+    
+        
 
 
 
-    <!-- FOOTER -->
-    <footer class="container mt-3">
-        <p class="float-right"><a href="#">Back to top</a></p>
-        <p>&copy; 2019-2020 CodesWithNaitik.com &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
-    </footer>
-    <!-- Custom JavaScript -->
+        <!-- FOOTER -->
+        <footer class="container mt-3">
+            <p class="float-right"><a href="#">Back to top</a></p>
+            <p>&copy; 2019-2020 CodesWithNaitik.com &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
+        </footer>
+        <!-- Custom JavaScript -->
 
-    <!-- <script src="/static/common/js/base.js"></script> -->
-    <script src="https://apis.google.com/js/platform.js"></script>
-    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+        <!-- <script src="/static/common/js/base.js"></script> -->
+        <script src="https://apis.google.com/js/platform.js"></script>
+        <script src="https://www.google.com/recaptcha/api.js" async defer></script>
 
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-        crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
-        crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
-        crossorigin="anonymous"></script>
-    <script src="https://kit.fontawesome.com/433888fe69.js" crossorigin="anonymous"></script>
+        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+            integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+            crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+            integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+            crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+            integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+            crossorigin="anonymous"></script>
+        <script src="https://kit.fontawesome.com/433888fe69.js" crossorigin="anonymous"></script>
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.9/typed.min.js"></script>
-    <script>
-        window.onload = function () {
-            console.log("loaded")
-            var typed = new Typed('#typed', {
-                strings: ["Welcome to Codes With Naitik", "Learn Python", "Web development", "Data Science", "and other awesome programming concepts with me"],
-                backSpeed: 15,
-                smartBackspace: true,
-                backDelay: 1200,
-                startDelay: 1000,
-                typeSpeed: 25,
-                loop: true,
-            });
-        };
-    </script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.9/typed.min.js"></script>
+        <script>
+            window.onload = function () {
+                console.log("loaded")
+                var typed = new Typed('#typed', {
+                    strings: ["Welcome to Codes With Naitik", "Learn Python", "Web development", "Data Science", "and other awesome programming concepts with me"],
+                    backSpeed: 15,
+                    smartBackspace: true,
+                    backDelay: 1200,
+                    startDelay: 1000,
+                    typeSpeed: 25,
+                    loop: true,
+                });
+            };
+        </script>
 
 </body>
 
